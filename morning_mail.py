@@ -21,7 +21,7 @@ if day_name == "Thursday":
     s.starttls()
 
     # Authentication
-    s.login("mohit.bhatt.work@gmail.com", "gnqulfcourgaibfe")
+    s.login("your_email", "your_pass")
 
     # message to be sent
     message = f"Subject: {day_name} Quote! \n\n{quote}\n\n Thanks you!"
