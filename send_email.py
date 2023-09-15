@@ -7,7 +7,7 @@ s = smtplib.SMTP('smtp.gmail.com', 587)
 s.starttls()
 
 # Authentication
-s.login("mohit.bhatt.work@gmail.com", "gnqulfcourgaibfe")
+s.login("your_email_id", "your_password")
 
 # message to be sent
 message = "Subject: Sale! \n\nThe sale has been started please start doing the shoping fastly!"
